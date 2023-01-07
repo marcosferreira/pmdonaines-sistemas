@@ -1,0 +1,20 @@
+.footer {
+  width: 100%;
+  padding: 32px;
+  font-size: 0.7rem;
+  line-height: 1rem;
+  border-top: 4px solid #FFC200;
+  background-color: #00378A;
+  color: #fff;
+}
+
+.footer-justify-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #FFF;
+}

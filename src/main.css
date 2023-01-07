@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, "Open Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+:root {
+  --color-primary-blue: #00378a;
+  --color-secondary-blue: #003f9c;
+  --color-primary-yellow: #ffc200;
+  --color-primary-white: #fff;
+}
+
+.text-primary {
+  color: var(--color-primary-blue) !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar:hover {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(90, 90, 90, 0.5);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+a {
+  color: var(--color-primary-blue);
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* --------- HELPERS ------------ */
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.btn {
+  min-height: 45px;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--color-primary-blue);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-blue);
+  color: var(--color-primary-white);
+  transition: all 0.3s;
+}
+
+.bg-primary {
+  background-color: var(--color-primary-blue) !important;
+  color: #ffffff;
+}
+
+.btn-outlined {
+  min-height: 70px;
+  padding: 10px 20px;
+  background-color: var(--color-primary-blue);
+  border-color: #ffffff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+.btn-outlined:hover {
+  background-color: var(--color-primary-yellow);
+}
+
+.btn-outlined .material-icons-outlined {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+
+/* logo */
+nav.navbar-nav img {
+  margin: 10px 0px;
+}
+
+nav.navbar a.logo-link img {
+  max-width: 280px;
+}
+
+/* ------- END HELPERS ---------- */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 0.9rem;
+}

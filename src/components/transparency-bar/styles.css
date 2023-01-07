@@ -1,0 +1,33 @@
+.transparency-bar {
+  width: 100%;
+  padding: 0 16px;
+  background-color: #00378A;
+  color: #fff;
+}
+
+.transparency-nav {
+  min-width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.transparency-nav ul {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.transparency-nav ul li {
+  font-size: 0.6rem;
+  padding: 0 8px;
+}
+
+.transparency-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.transparency-nav ul li a:hover {
+  text-decoration: underline;
+}
