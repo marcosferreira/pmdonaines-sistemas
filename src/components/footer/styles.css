@@ -18,3 +18,17 @@
   text-decoration: none;
   color: #FFF;
 }
+
+@media (max-width: 1020px) {
+  .footer-justify-between {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  address {
+    text-align: center;
+  }
+}

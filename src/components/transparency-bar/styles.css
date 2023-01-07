@@ -6,7 +6,6 @@
 }
 
 .transparency-nav {
-  min-width: 400px;
   display: flex;
   justify-content: space-between;
 }
@@ -30,4 +29,11 @@
 
 .transparency-nav ul li a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 1020px) {
+  .transparency-nav ul li {
+    font-size: 0.5rem;
+    padding: 0 8px;
+  }
 }

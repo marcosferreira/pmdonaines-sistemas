@@ -13,7 +13,7 @@ export function Header() {
             </button>
             <LogoHeader />
           </div>
-          <div className="header-content">
+          <div className="header-content header-right">
             <ul>
               <li><a href="http://esic.pmdonaines.pb.gov.br/" target="_blank">Acesso à Informação</a></li>
               <li><a href="https://pmdonaines.pb.gov.br/carta-de-servicos/" target="_blank">Carta de Serviços</a></li>
