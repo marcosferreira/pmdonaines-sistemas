@@ -1,4 +1,5 @@
 import { LogoHeader } from "../logo";
+import { Menu } from "../menu";
 
 import './styles.css';
 
@@ -13,11 +14,11 @@ export function Header() {
             </button>
             <LogoHeader />
           </div>
-          <div className="header-content header-right">
+          <div className="header-content">
             <ul>
-              <li><a href="http://esic.pmdonaines.pb.gov.br/" target="_blank">Acesso à Informação</a></li>
-              <li><a href="https://pmdonaines.pb.gov.br/carta-de-servicos/" target="_blank">Carta de Serviços</a></li>
-              <li><a className="btn btn-emphasis" href="https://transparencia.pmdonaines.pb.gov.br" target="_blank">Portal da Transparência</a></li>
+              <li className="mobile-hidden"><a href="http://esic.pmdonaines.pb.gov.br/" target="_blank">Acesso à Informação</a></li>
+              <li className="mobile-hidden"><a href="https://pmdonaines.pb.gov.br/carta-de-servicos/" target="_blank">Carta de Serviços</a></li>
+              <li className="mobile-hidden"><a className="btn btn-emphasis" href="https://transparencia.pmdonaines.pb.gov.br" target="_blank">Portal da Transparência</a></li>
             </ul>
 
             <a className="btn" href="https://pmdonaines.pb.gov.br/?s" target="_blank">
@@ -26,6 +27,7 @@ export function Header() {
           </div>
         </div>
       </div >
+      <Menu />
     </header >
   );
 }
