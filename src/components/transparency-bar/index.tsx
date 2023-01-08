@@ -12,8 +12,9 @@ export function TransparencyBar() {
           </ul>
 
           <ul>
-            <li><a href="">VLIBRAS</a></li>
-            <li><a href="">AUTO CONTRASTE</a></li>
+            <li><a href="#"> +A</a></li>
+            <li><a href="#"> -A</a></li>
+            <li><a href="#">AUTO CONTRASTE</a></li>
           </ul>
         </nav>
       </div>
