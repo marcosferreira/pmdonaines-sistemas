@@ -8,7 +8,7 @@ export function Header() {
   const [menuShow, setMenuShow] = useState<boolean>(false);
 
   function handleMenuClose() {
-    setMenuShow(false);
+    if (menuShow) setMenuShow(false);
   }
 
   function handleMenuShow() {
