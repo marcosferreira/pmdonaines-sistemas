@@ -5,7 +5,6 @@ import { Menu } from "../menu";
 import './styles.css';
 
 export function Header() {
-
   const [menuShow, setMenuShow] = useState<boolean>(false);
 
   function handleMenuShow() {
@@ -13,7 +12,7 @@ export function Header() {
   }
 
   return (
-    <header className="header menubar">
+    <header className="header menubar" onClick={() => handleMenuShow()}>
       <div className="menu-shadow">
         <div className="container">
           <div className="header-container">
@@ -37,7 +36,7 @@ export function Header() {
           </div>
         </div >
       </div>
-      <Menu show={menuShow} />
+      <Menu menuShow={menuShow} setMenuShow={setMenuShow} />
     </header >
   );
 }

@@ -1,12 +1,19 @@
+import { Dispatch, SetStateAction, useEffect, useState } from 'react';
 import './styles.css';
 
 type PropsType = {
-  show: boolean
+  menuShow: boolean,
+  setMenuShow: Dispatch<SetStateAction<boolean>>
 }
 
-export function Menu({ show }: PropsType) {
-  return show ? (
-    <div className="menu">
+export function Menu({ menuShow, setMenuShow }: PropsType) {
+
+  function handleShow() {
+    setMenuShow(menuShow ? false : true);
+  }
+
+  return menuShow ? (
+    <div className="menu" onClick={() => handleShow()}>
       <div className="menu-container">
         <section>
           <h4>Acesso à Informação</h4>
