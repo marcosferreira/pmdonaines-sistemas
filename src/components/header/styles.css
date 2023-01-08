@@ -45,3 +45,7 @@
 .header-content ul li a {
   color: #444;
 }
+
+.header-content #button-search-icon {
+  font-size: 1.3rem;
+}

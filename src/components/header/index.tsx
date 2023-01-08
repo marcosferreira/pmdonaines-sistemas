@@ -34,7 +34,7 @@ export function Header() {
               </ul>
 
               <a className="btn" href="https://pmdonaines.pb.gov.br/?s" target="_blank">
-                <span className="material-icons-outlined">search</span>
+                <i id="button-search-icon" className="fa fa-search" aria-hidden="true"></i>
               </a>
             </div>
           </div>
