@@ -7,12 +7,16 @@ import './styles.css';
 export function Header() {
   const [menuShow, setMenuShow] = useState<boolean>(false);
 
+  function handleMenuClose() {
+    setMenuShow(false);
+  }
+
   function handleMenuShow() {
     setMenuShow(menuShow ? false : true);
   }
 
   return (
-    <header className="header menubar" onClick={() => handleMenuShow()}>
+    <header className="header menubar" onClick={() => handleMenuClose()}>
       <div className="menu-shadow">
         <div className="container">
           <div className="header-container">
