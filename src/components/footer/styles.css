@@ -1,11 +1,15 @@
 .footer {
   width: 100%;
+  min-height: 120px;
   padding: 32px;
   font-size: 0.7rem;
   line-height: 1rem;
   border-top: 4px solid #FFC200;
   background-color: #00378A;
   color: #fff;
+
+  position: absolute;
+  bottom: 0;
 }
 
 .footer-justify-between {
@@ -23,9 +27,9 @@
   .footer-justify-between {
     display: flex;
     flex-direction: column;
-    gap: 32px;
     justify-content: space-between;
     align-items: center;
+    gap: 32px;
   }
 
   address {
