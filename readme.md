@@ -19,7 +19,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Barra superior fixa ao rolar
 - [x] Responsividade para telas menores
 - [x] Estilização do menu principal
-- [x] Funcionalidade de abrir e fechar menu principal 
+- [x] Funcionalidade de abrir e fechar menu principal
 <!-- - [ ] Tarefa 5 -->
 
 ## 💻 Pré-requisitos
@@ -48,6 +48,13 @@ cd pmdonaines-sistemas
 npm install
 npm run dev
 ```
+
+Para realizar deploy do pmdonaines-sistemas em um sub-diretório:
+Obs: Devesse usar `npx vite`
+```
+npx vite build --base=/sistemas
+```
+
 
 Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
 
@@ -80,7 +87,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   </tr>
 </table> -->
 
-<!-- 
+<!--
 ## 😄 Seja um dos contribuidores<br>
 
 Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
